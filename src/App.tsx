@@ -225,7 +225,7 @@ function App() {
                   <p className="text-gray-500 text-sm">AI enthusiast</p>
                 </div>
               </div>
-              <p className="text-gray-700">"I'm love AI, I always wished i had a personal assistant that I can offload my work to. This is the closest thing to that."</p>
+              <p className="text-gray-700">"I always wished i had a personal assistant that I can offload my work to. This is the closest thing to that."</p>
             </div>
           </div>
           <div className="flex justify-center items-center mt-12 space-x-8">
