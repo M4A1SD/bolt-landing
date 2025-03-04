@@ -155,7 +155,7 @@ function App() {
               <div className="bg-amber-500 bg-opacity-10 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <Clock className="h-7 w-7 text-amber-500" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Time Saved, Anger Avoided</h3>
+              <h3 className="text-xl font-semibold mb-3">Time Saved, Frustration Avoided</h3>
               <p className="text-gray-600">Skip the forms, boost productivity, and never miss an appointment again.</p>
             </div>
           </div>
