@@ -14,9 +14,22 @@ function App() {
           <a href="#features" className="hover:text-[#25D366] transition-colors">Features</a>
           <a href="#how-it-works" className="hover:text-[#25D366] transition-colors">How It Works</a>
           <a href="#pricing" className="hover:text-[#25D366] transition-colors">Pricing</a>
-          <button className="bg-[#25D366] text-white px-4 py-2 rounded-lg font-medium hover:bg-opacity-90 transition-colors">
+          <a 
+            href="https://x.com/ArthurDaKingsta" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:text-[#25D366] transition-colors"
+          >
+            Contact
+          </a>
+          <a 
+            href="https://www.paypal.com/ncp/payment/CVW73FG3AUEK4" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="bg-[#25D366] text-white px-4 py-2 rounded-lg font-medium hover:bg-opacity-90 transition-colors"
+          >
             Start Trial
-          </button>
+          </a>
         </div>
         <button className="md:hidden">
           <ChevronDown className="h-6 w-6" />
@@ -27,23 +40,31 @@ function App() {
       <section className="container mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-10 md:mb-0">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
-            Schedule Events in Seconds with AI – No More Calendar Hassle!
+            Schedule Events in Seconds with AI – No More Calendar Form Filling!
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8">
             Use natural language in WhatsApp to add events to your Google Calendar instantly.
           </p>
           <p className="text-lg text-gray-700 mb-8">
-            Say goodbye to tedious forms. Type your events in one box, press a button, and let AI do the rest – all in your favorite app, WhatsApp.
+            No more tedious forms. One box, one button, and let AI do the rest – all in your favorite app, WhatsApp.
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-            <button className="bg-[#25D366] text-white px-6 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-colors flex items-center justify-center">
+            <a 
+              href="https://www.paypal.com/ncp/payment/CVW73FG3AUEK4" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="bg-[#25D366] text-white px-6 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-colors flex items-center justify-center"
+            >
               <span>Start Your 5$ Trial Now</span>
               <ArrowRight className="ml-2 h-5 w-5" />
-            </button>
-            <button className="border border-gray-300 bg-white text-gray-800 px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors flex items-center justify-center">
+            </a>
+            <a 
+              href="#video-demo" 
+              className="border border-gray-300 bg-white text-gray-800 px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors flex items-center justify-center"
+            >
               <Play className="mr-2 h-5 w-5 text-[#25D366]" />
               <span>Watch Demo</span>
-            </button>
+            </a>
           </div>
         </div>
         <div className="md:w-1/2">
@@ -141,6 +162,24 @@ function App() {
         </div>
       </section>
 
+      {/* Video Demo Section */}
+      <section id="video-demo" className="bg-gray-50 py-16 md:py-24">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">See It In Action</h2>
+          <div className="max-w-3xl mx-auto">
+            <div className="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-lg">
+              <iframe 
+                className="w-full h-96 rounded-xl"
+                src="https://youtube.com/embed/SD-ewpTn2HA" 
+                title="ScheduleAI Demo" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Social Proof */}
       <section className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
@@ -154,11 +193,11 @@ function App() {
                   className="w-12 h-12 rounded-full object-cover mr-4"
                 />
                 <div>
-                  <h4 className="font-semibold">Alex Thompson</h4>
-                  <p className="text-gray-500 text-sm">Freelance Designer</p>
+                  <h4 className="font-semibold">Arthur</h4>
+                  <p className="text-gray-500 text-sm">SWE student</p>
                 </div>
               </div>
-              <p className="text-gray-700">"This saved me HOURS every week – so simple! I can't believe how much time I wasted with traditional calendar apps."</p>
+              <p className="text-gray-700">"This saved me stress every week – so simple! I can't believe how much time I wasted with traditional calendar apps."</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="flex items-center mb-4">
@@ -168,11 +207,11 @@ function App() {
                   className="w-12 h-12 rounded-full object-cover mr-4"
                 />
                 <div>
-                  <h4 className="font-semibold">Sarah Chen</h4>
-                  <p className="text-gray-500 text-sm">Marketing Manager</p>
+                  <h4 className="font-semibold">Arthur</h4>
+                  <p className="text-gray-500 text-sm">WhatsApp user</p>
                 </div>
               </div>
-              <p className="text-gray-700">"I'm constantly scheduling meetings on the go. Being able to do it all in WhatsApp has been a game-changer for my productivity."</p>
+              <p className="text-gray-700">"I'm already using Whatsapp for note taking. And now I can use it to schedule events too. It's a game-changer for my productivity."</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="flex items-center mb-4">
@@ -182,11 +221,11 @@ function App() {
                   className="w-12 h-12 rounded-full object-cover mr-4"
                 />
                 <div>
-                  <h4 className="font-semibold">Michael Rodriguez</h4>
-                  <p className="text-gray-500 text-sm">Small Business Owner</p>
+                  <h4 className="font-semibold">Arthur</h4>
+                  <p className="text-gray-500 text-sm">AI enthusiast</p>
                 </div>
               </div>
-              <p className="text-gray-700">"My schedule is chaotic. This AI assistant keeps me organized without adding another app to my already cluttered phone."</p>
+              <p className="text-gray-700">"I'm love AI, I always wished i had a personal assistant that I can offload my work to. This is the closest thing to that."</p>
             </div>
           </div>
           <div className="flex justify-center items-center mt-12 space-x-8">
@@ -221,17 +260,6 @@ function App() {
               </div>
               <h3 className="text-xl font-semibold mb-3">Start Scheduling</h3>
               <p className="text-gray-600">Chat with the AI on WhatsApp – start scheduling events using natural language!</p>
-            </div>
-          </div>
-          <div className="mt-16 max-w-3xl mx-auto">
-            <div className="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-lg">
-              <iframe 
-                className="w-full h-96 rounded-xl"
-                src="https://youtube.com/embed/SD-ewpTn2HA" 
-                title="ScheduleAI Demo" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowFullScreen
-              ></iframe>
             </div>
           </div>
         </div>
@@ -270,9 +298,14 @@ function App() {
                   <span>After trial: $20 for 2 months</span>
                 </li>
               </ul>
-              <button className="w-full bg-[#25D366] text-white py-3 rounded-lg font-medium hover:bg-opacity-90 transition-colors">
+              <a 
+                href="https://www.paypal.com/ncp/payment/CVW73FG3AUEK4" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="block w-full bg-[#25D366] text-white py-3 rounded-lg font-medium hover:bg-opacity-90 transition-colors text-center"
+              >
                 Start Your Trial Now
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -286,12 +319,23 @@ function App() {
             Join thousands of busy professionals who have revolutionized how they manage their calendar.
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <button className="bg-white text-[#25D366] px-8 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-colors">
+            <a 
+              href="https://www.paypal.com/ncp/payment/CVW73FG3AUEK4" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="bg-white text-[#25D366] px-8 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-colors inline-block"
+            >
               Start Your 5$ Trial Now
-            </button>
-            <button className="border border-white text-white px-8 py-3 rounded-lg font-medium hover:bg-white hover:bg-opacity-10 transition-colors">
+            </a>
+            <a 
+              href="#video-demo" 
+              className="border border-white text-white px-8 py-3 rounded-lg font-medium hover:bg-white hover:bg-opacity-10 transition-colors"
+            >
               Watch Demo
-            </button>
+            </a>
+          </div>
+          <div className="mt-8 text-white text-opacity-90">
+            <p>Questions? <a href="https://x.com/ArthurDaKingsta" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Contact me on X @ArthurDaKingsta</a></p>
           </div>
         </div>
       </section>
@@ -310,8 +354,11 @@ function App() {
               <a href="#pricing" className="hover:text-[#25D366] transition-colors">Pricing</a>
             </div>
             <div className="flex items-center space-x-4">
-              <a href="https://x.com/ArthurDaKingsta" target="_blank" rel="noopener noreferrer" className="hover:text-[#25D366] transition-colors">
-                @ArthurDaKingsta
+              <a href="https://x.com/ArthurDaKingsta" target="_blank" rel="noopener noreferrer" className="hover:text-[#25D366] transition-colors flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span>Contact me on Twitter: @ArthurDaKingsta</span>
               </a>
             </div>
           </div>
